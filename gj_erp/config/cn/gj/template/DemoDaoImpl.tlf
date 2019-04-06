@@ -1,0 +1,17 @@
+package cn.gj.dao.impl;
+
+import org.apache.commons.lang.StringUtils;
+
+import cn.gj.dao.DemoDao;
+import cn.gj.model.Demo;
+import cn.gj.query.DemoQuery;
+
+public class DemoDaoImpl extends BaseDaoImpl<Demo , DemoQuery> implements DemoDao {
+
+	@Override
+	public String creatHql(DemoQuery q) {
+		String hql = "from Demo t where 1=1 ";
+		
+		return hql;
+	}
+}

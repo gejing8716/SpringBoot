@@ -1,0 +1,10 @@
+/ApplicationContext-action.xml
+/ApplicationContext-dao.xml
+/ApplicationContext-service.xml
+/ApplicationContext.xml
+/cn/
+/db.properties
+/hibernate.cfg.xml
+/log4j.properties
+/struts.xml
+/xwork-conversion.properties

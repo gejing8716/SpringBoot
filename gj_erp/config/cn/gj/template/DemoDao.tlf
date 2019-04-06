@@ -1,0 +1,9 @@
+package cn.gj.dao;
+
+import cn.gj.model.Demo;
+import cn.gj.query.DemoQuery;
+
+public interface DemoDao extends BaseDao<Demo , DemoQuery> {
+	
+
+}

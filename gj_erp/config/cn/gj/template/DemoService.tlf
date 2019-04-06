@@ -1,0 +1,10 @@
+package cn.gj.service;
+
+import cn.gj.model.Demo;
+import cn.gj.query.DemoQuery;
+
+public interface DemoService extends BaseService<Demo, DemoQuery> {
+	
+
+
+}

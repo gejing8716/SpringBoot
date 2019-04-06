@@ -1,0 +1,17 @@
+package cn.gj.service.impl;
+
+import cn.gj.dao.DemoDao;
+import cn.gj.model.Demo;
+import cn.gj.query.DemoQuery;
+import cn.gj.service.DemoService;
+
+public class DemoServiceImpl extends BaseServiceImpl<Demo, DemoQuery> implements DemoService {
+
+	
+	private DemoDao demoDao;
+	
+	public void setDemoDao(DemoDao demoDao) {
+		this.demoDao = demoDao;
+		this.baseDao = demoDao;
+	}
+}
